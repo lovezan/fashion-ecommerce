@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X, User } from "lucide-react"
+import Image from "next/image";
 import { cn } from "@/lib/utils"
 
 export default function Header() {
@@ -41,11 +42,19 @@ export default function Header() {
       )}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
-        <div className="flex items-center">
-          <Link href="/" className="font-bold text-lg flex items-center">
-            <span className="mr-1">▼</span> FASHION
-          </Link>
-        </div>
+      <div className="flex items-center">
+  <Link href="/" className="font-bold text-lg flex items-center">
+    {/* Replace the span with an Image component */}
+    <Image 
+      src="/images/vector.png" // replace with your logo path
+      alt="Fashion Logo"
+      width={20} // adjust based on your image dimensions
+      height={20}
+      className="mr-1"
+    />
+    FASHION
+  </Link>
+</div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">

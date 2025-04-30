@@ -36,7 +36,7 @@ export default function FashionPage() {
       <section className="relative">
         <div className="relative h-[60vh] bg-black">
           <Image
-            src="/placeholder.svg?height=800&width=1600&text=Fashion+Collection"
+            src="/images/Hero.jpg"
             alt="Fashion Collection"
             fill
             className="object-cover opacity-70"

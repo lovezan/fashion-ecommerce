@@ -35,8 +35,11 @@ export default function CataloguePage() {
     <main className="min-h-screen">
       <Header />
 
+      {/* Add padding to account for fixed header */}
+      <div className="pt-16 md:pt-20"></div>
+
       {/* Page Title */}
-      <section className="bg-[#FFF9E5] py-12 px-6 text-center">
+      <section className="bg-[#FFF9E5] py-12 px-6 text-center mt-16">
         <h1 className="text-3xl md:text-4xl font-bold">Our Catalogue</h1>
         <p className="mt-2 text-gray-600">Explore our complete collection of trendy clothing</p>
       </section>
