@@ -51,6 +51,8 @@ A modern, responsive fashion e-commerce website built with Next.js and Tailwind 
 
 2. Install dependencies:
    ```bash
+   pnpm install
+   # or
    npm install
    # or
    yarn install
@@ -58,6 +60,8 @@ A modern, responsive fashion e-commerce website built with Next.js and Tailwind 
 
 3. Run the development server:
    ```bash
+   npm run dev
+   # or
    npm run dev
    # or
    yarn dev
@@ -110,6 +114,8 @@ To add more products, edit the `lib/product-data.ts` file. The project currently
 This project can be easily deployed to Vercel:
 
 ```bash
+npm run build
+# or
 npm run build
 # or
 yarn build
